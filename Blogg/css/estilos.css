@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    /* cuerpo principla */
+    body{
+    
+     background-color: antiquewhite;
+
+     
+
+    }
+   
+    .navegacion{
+       
+    
+     
+     background-color: rgb(153,0,0);   
+    text-align: center;
+    
+    }
+    .navegacion ul{
+       
+     list-style: none  ;
+     position: center;
+     text-align: center;
+ 
+    }
+    .bases{
+
+        text-align: center;
+    }
+    
+    .menu > li{
+        
+     position: relative;
+     display: inline-block;
+   
+    }
+    .menu >li > a {
+       
+     display: block;
+     padding: 10px 30px;
+    
+     font-family: Arial;
+     text-decoration: none;
+     color: white   ;
+    }
+     .menu li a:hover{
+    
+        color: rgb(127, 178, 255);
+        transition: all .3s;
+     }
+      
+     .submenu{
+     position:absolute;
+     background:  rgb(187, 65, 65);  
+     
+     width: 160%;
+     display: none;
+     }
+     .submenu li a{
+     display: block;
+     color: white;
+     padding: 15px;
+     text-decoration: none;
+     font-family: Arial;
+     }
+    .menu li:hover .submenu{
+        display: block;
+    }
+    .submenu2{
+        position:absolute;
+        background:  rgb(187, 65, 65);  
+        width: 160%;
+        display: none;
+        }
+        .submenu2 li a{
+        display: block;
+        color: white;
+        padding: 15px;
+        text-decoration: none;
+        font-family: Arial;
+        }
+       .menu li:hover .submenu2{
+           display: block;
+       }
+
+       .submenu3{
+        position:absolute;
+        background:  rgb(187, 65, 65);   
+        width: 160%;
+        display: none;
+        }
+        .submenu3 li a{
+        display: block;
+        color: white;
+        padding: 15px;
+        text-decoration: none;
+        font-family: Arial;
+        }
+       .menu li:hover .submenu3{
+           display: block;
+       }
+       
+
+       /* index */
+      .slider{
+          padding:  23px;
+        width: 95%;
+        margin: auto;
+        overflow: hidden;
+        text-align: center;
+      }
+      .slider ul{
+        display: flex;
+        padding: 0;
+        width: 400%;
+        animation: cambio 20s infinite;
+        animation-direction: alternate;
+      }
+      .slider li{
+width: 100%;
+        list-style: none;
+      }
+      .slider img{
+
+        width: 90%;
+        height: 90%;
+      }
+@keyframes cambio {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+   
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    55%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    
+    75%{margin-left: -300%;}
+    90%{margin-left: -300%;}
+}
+
+        /* exclusivo Direcctorio */
+ .conte, .dtos{
+
+   
+  text-align: center;
+    display: inline-block;
+    vertical-align: top;
+  
+ }
+.dir{
+    text-align: center;
+}
+
+   
+        /* exclisivo publicaciones */
+#art1, #art2, #art3{
+    font-size: 24px;
+    padding: 70px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: Arial;
+
+}
+
+
+
+
